@@ -1,4 +1,4 @@
-# 🧑‍💻 Behind the Green Square
+# 🧑‍💻 Behind the Green Squares
 ### Detecting Fake & Bot-Like Developer Profiles Using Python
 
 > **34.08% of analyzed GitHub profiles show strong signs of automated, bot-like, or manufactured activity — and README quality turns out to be the single strongest predictor of authenticity (correlation: -0.74).**
@@ -44,11 +44,12 @@ visualizing the findings across 18 charts spanning 8 different chart types.
 ## 📁 Repository Structure
 
 ```
-github-illusion/
+Behind-the-Green-Squares
 │
 ├── data/
 │   ├── github_illusion_dirty.csv      ← raw dataset (105,000 rows, 21 cols, dirty)
-│   └── github_illusion_analysis.csv   ← cleaned + feature-engineered (101,807 rows, 30 cols)
+│   ├── github_illusion_clean.csv      ← cleaned dataset (101,806 rows, 27 cols)
+│   └── github_illusion_analysis.csv   ← cleaned + feature-engineered (101,806 rows, 31 cols)
 │
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb      ← Phase 1: initial EDA on raw data
