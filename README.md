@@ -1,4 +1,4 @@
-# 🧑‍💻 The GitHub Illusion
+# 🧑‍💻 Behind the Green Square
 ### Detecting Fake & Bot-Like Developer Profiles Using Python
 
 > **34.08% of analyzed GitHub profiles show strong signs of automated, bot-like, or manufactured activity — and README quality turns out to be the single strongest predictor of authenticity (correlation: -0.74).**
